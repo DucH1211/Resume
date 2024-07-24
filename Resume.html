@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duke's Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #fff;
+            color: #333;
+            font-family: 'Roboto', sans-serif;
+            font-size: large;
+        }
+        article {
+            display: flex;
+        }
+        h1, h2, h3, strong {
+            font-family: 'Raleway', sans-serif;
+            font-weight: bold;
+        }
+        .left-section, .right-section {
+            flex: 1;
+            padding: 20px;
+            box-sizing: border-box;
+            overflow-y: auto;
+        }
+        .resume-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .resume-header h1 {
+            font-size: 24px;
+            margin: 5px 0;
+            color: #007bff; /* blue */
+        }
+        .resume-header p {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+        .resume-section {
+            margin-bottom: 30px;
+        }
+        .resume-section h2 {
+            font-size: 20px;
+            border-bottom: 1px solid #000;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            color: #007bff;
+        }
+        .resume-section .resume-item {
+            margin-bottom: 15px;
+        }
+        .resume-section .resume-item h3 {
+            font-size: 18px;
+            margin-bottom: 5px;
+            color: #007bff;
+        }
+        .resume-section .resume-item p {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+        @media (max-width: 768px) {
+            article {
+                flex-direction: column;
+            }
+            .left-section, .right-section {
+                flex: 1;
+                width: auto;
+                border: none;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="resume-header">
+    <h1>Ho, Duc (Duke)</h1>
+    <p>Email: dho.ke216@gmail.com | Phone: (470) 918-8389 | LinkedIn: https://www.linkedin.com/in/dukeh-1c2712/</p>
+</div>
+
+<div class="resume-section">
+    <h2>Summary</h2>
+    <p>I am an Application Developer with one year of experience developing Java Spring Boot Applications with a strong background in Object Oriented Programming, Web Development, and Test Driven Development.
+        Help a team enhance, test, and deliver a large project that automates LOC, Advance, and SBPA entries pricing, prepayments/lifecycle events, and compliance manager. Leading the effort to introduce health monitoring and real-time graphic reporting services for various web applications. Hoping to leverage my problem-solving, and analytics skills in challenging development and integration projects.</p>
+</div>
+<article>
+    <div class="left-section">
+        <div class="resume-section">
+            <h2>Experience</h2>
+            <div class="resume-item">
+                <h3>Application Developer Co-op</h3>
+                <p><strong>Federal Home Loan Bank</strong> | Des Moines, Iowa | Jan 2024 - Current</p>
+                <ul>
+                    <li>Follow Test Driven Development Principle to develop and deliver various application/integration enhancement, 
+                        include tracking display of communications request between two vendor applications; 
+                        Rest API for automated interaction with F5-BigIP orchestrating appliance; introduce graphic health metrics monitoring</li>
+                    <li>Work Closely with UAT Coordinator to build, perform over 150 scheduled jobs</li>
+                    <li>Work closely with project manager and Database Administrator to encrypt internal applications connections to SQL Server Database</li>
+                    <li>Upgrade Spring boot applications to introduce flyway database migration, ci-cd deployment</li>
+                    <li>Support maintain and prepare applications for UAT, QA Testing</li>    
+                </ul>
+            </div>
+            <div class ="resume-item">
+                <h3>College Math and Java Programing Tutor</h3>
+                <p><strong>Kennesaw State University</strong> | Kennesaw, Georgia | Jan 2022 - May 2023</p>
+                <ul>
+                    <li>Assist students in understanding Math Concepts and problem-solving strategies</li>
+                    <li>Conduct monthly assessment to identify common problems. Record shows that 63 percent of students
+                        attending session regularly have significant grade improvement.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="right-section">
+        <div class="resume-section">
+            <h2>Education</h2>
+            <div class="resume-item">
+                <h3>Bachelor of Science (B.S) - Computer Science</h3>
+                <p><strong>Kennesaw State University</strong> | Kennesaw, Georgia | May 2023</p>
+            </div>
+            <div class="resume-item">
+                <h3>Certification of Completion - Full Stack Spring Boot, Angular </h3>
+                <p><strong>Cogent Info Tech University</strong> | Pittsburgh | September 2023</p>
+                <ul>
+                    <li>Hands on Spring Boot, Angular Development Boot Camp. Learned how to develop, secure, test, package and deploy Spring boot and Angular applications</li>
+                    <li>Built and Deplot and Angular Ecommerce Application that support filtering, sorting, paging with Angular, Spring Boot (https://github.com/JIDEA-Shop)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="resume-section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Object Oriented Programming</li>
+                <li>Test Driven Development</li>
+                <li>Collaborative Problem Solving</li>
+                <li>Proficient in Rest API, JPA, JDBC,Hibernate with Spring Boot Framework</li>
+                <li>Proficient in Java Programming Language</li>
+                <li>Proficient in SQL with SQL Server and MySQL</li>
+                <li>Intermediate in Apache Camel Integration Design</li>
+                <li>Agile Development</li>
+                <li>Scheduling and Automation</li>
+            </ul>
+        </div>
+    </div>
+    </body>
+    </html>
+</article>
